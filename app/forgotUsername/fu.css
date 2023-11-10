@@ -1,0 +1,99 @@
+.container {
+    display: flex;
+    /* height: 100vh; */
+}
+
+.left-side {
+    flex: 45%;
+    background-color: #050033;
+    background-image: url("https://ssowmya.s3.us-east-2.amazonaws.com/TCB.png");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+.right-side {
+    flex: 3;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+}
+
+/* @media (max-width: 1000px) {
+    .left-side {
+        display: none;
+    }
+}
+
+.py-4 {
+    padding-top: 1.5rem !important;
+    padding-bottom: 1.5rem !important;
+}
+
+.w-50 {
+    width: 50% !important;
+}
+
+img,
+svg {
+    vertical-align: middle;
+}
+
+
+div.card {
+    width: 400px;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 0.25rem;
+    text-align: center;
+}
+
+body .login-container .content-column {
+    width: 100%;
+    height: 100%;
+}
+
+.new-user {
+    text-align: left;
+}
+
+.email-contact {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.email-contact strong {
+    font-weight: bold;
+}
+*/
+
+.form-section {
+    margin-bottom: 2rem;
+}
+
+
+.form-buttons {
+    margin-top: 1rem;
+    background-color: #050033;
+    color: white;
+    padding: 15px 100px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.form-input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+#error-message {
+    color: red;
+}
